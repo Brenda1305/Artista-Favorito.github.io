@@ -1,0 +1,90 @@
+/*comentarios*/
+
+/*selector de tipo etiqueta HTML*/
+*{
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+}
+
+h1{
+    color: beige;
+    background-color: rgb(27, 90, 10);
+    width: 300px;
+    padding: 20px; /*Espacio interno*/
+    border: 3px dashed rgb(10, 9, 70); /*Borde o tope*/
+    margin: 60px; /*Espacio externo*/
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lobster', sans-serif;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Opcional, para centrar verticalmente en toda la altura de la ventana */
+
+    
+}
+p{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: x-large;
+}
+
+
+body{ 
+    background-color: darkseagreen;
+    text-align: center;
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: xx-large;
+}
+
+h3{
+    color: mediumvioletred;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: xx-large;
+}
+
+ul li{
+    text-decoration-line: dotted;
+    text-transform: uppercase;
+}
+
+/*selectores de tipo clase*/
+.tarjeta{
+background-color: rgb(232, 130, 250);
+border: 3px solid rgb(75, 1, 75);
+margin: 100px ;
+}
+/*Selector de tipo ID*/
+#Titulo-historia{
+    color: rgb(118, 3, 146);
+}
+#Titulo-grupos{
+    color: rgb(141, 34, 91);
+}
+#Titulo-favoritas{
+color: rgb(10, 84, 195);
+}
+#Titulo-formulario{
+color: rgb(218, 19, 188) ;    
+}
+#Imagen1{
+    width: 300px; /*Unidades relativas*/
+    border-radius:100px; /*bordes redondeados*/
+    margin: auto;
+}
+#Imagen2{
+    width: 250px;/*Unidades estáticas*/
+    border-radius: 30px;
+    margin:auto
+}
+#Imagen3{
+    width: 300px;
+    border-radius: 30px;
+    margin: auto;
+}
